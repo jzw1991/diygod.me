@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hi, DIYgod</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://diygod.me/"/>
+  <updated>2017-12-21T04:39:03.342Z</updated>
+  <id>https://diygod.me/</id>
+  
+  <author>
+    <name>DIYgod</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我喜欢的音乐</title>
+    <link href="https://diygod.me/my-favorite-songs/"/>
+    <id>https://diygod.me/my-favorite-songs/</id>
+    <published>2017-12-06T00:01:30.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<div class="aplayer" id="aplayer1"></div><script>$(function(){$.ajax({url:"https://api.i-meto.com/meting/api?server=netease&type=playlist&id=35798529",success:function(e){var a=new APlayer({element:document.getElementById("aplayer1"),showlrc:3,theme:"#ad7a86",listmaxheight:"280px",mode:"random",music:JSON.parse(e)});window.aplayers||(window.aplayers=[]),window.aplayers.push(a)}})})</script><p>&nbsp;</p><p>听了几年网易云音乐积累的音乐，女声、日语为主（也可能会有一些奇奇怪怪的歌曲<br>同步自：<a href="http://music.163.com/#/playlist?id=35798529" target="_blank" rel="noopener">DIYgod喜欢的音乐 - 网易云音乐</a><br>自豪地使用 <a href="https://github.com/metowolf/Meting" target="_blank" rel="noopener">Meting</a> 和 <a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">APlayer</a> 构建</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;aplayer&quot; id=&quot;aplayer1&quot;&gt;&lt;/div&gt;&lt;script&gt;$(function(){$.ajax({url:&quot;https://api.i-meto.com/meting/api?server=netease&amp;type=playlist&amp;id
+      
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>可能是目前最好用的两个 Hexo 播放器插件</title>
+    <link href="https://diygod.me/best-players-in-hexo/"/>
+    <id>https://diygod.me/best-players-in-hexo/</id>
+    <published>2017-11-29T15:14:37.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>我实在也不是谦虚，这<del>可能</del>是目前最好用的两个 Hexo 播放器插件，感谢插件作者（给大佬们递女装<br>本文只作为演示，使用方法和 issue 请移步 GitHub<br><a id="more"></a></p><h1 id="hexo-tag-aplayer"><a href="#hexo-tag-aplayer" class="headerlink" title="hexo-tag-aplayer"></a><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer</a></h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-aplayer --save</span><br></pre></td></tr></table></figure><p>Hexo 的 <a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">APlayer</a> 标签插件，由 <a href="https://github.com/grzhan" target="_blank" rel="noopener">@grzhan</a> 维护</p><div class="aplayer" id="aplayer1"></div><script>$(function(){var e=new APlayer({element:document.getElementById("aplayer1"),showlrc:3,theme:"#ad7a86",music:[{title:"あっちゅ～ま青春!",author:"七森中☆ごらく部",url:"https://dplayer.b0.upaiyun.com/yuruyuri.mp3",pic:"https://dplayer.b0.upaiyun.com/yuruyuri.jpg",lrc:"https://dplayer.b0.upaiyun.com/yuruyuri.lrc"},{title:"secret base~君がくれたもの~",author:"茅野愛衣",url:"https://dplayer.b0.upaiyun.com/secretbase.mp3",pic:"https://dplayer.b0.upaiyun.com/secretbase.jpg",lrc:"https://dplayer.b0.upaiyun.com/secretbase.lrc"},{title:"回レ！雪月花",author:"小倉唯",url:"https://dplayer.b0.upaiyun.com/snowmoonflowers.mp3",pic:"https://dplayer.b0.upaiyun.com/snowmoonflowers.jpg",lrc:"https://dplayer.b0.upaiyun.com/snowmoonflowers.lrc"}]});window.aplayers||(window.aplayers=[]),window.aplayers.push(e)})</script><p>&nbsp;</p><h1 id="hexo-tag-dplayer"><a href="#hexo-tag-dplayer" class="headerlink" title="hexo-tag-dplayer"></a><a href="https://github.com/MoePlayer/hexo-tag-dplayer" target="_blank" rel="noopener">hexo-tag-dplayer</a></h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-dplayer --save</span><br></pre></td></tr></table></figure><p>Hexo 的 <a href="https://github.com/MoePlayer/DPlayer" target="_blank" rel="noopener">DPlayer</a> 标签插件，由 <a href="https://github.com/Myer921" target="_blank" rel="noopener">@Myer921</a> <a href="https://github.com/dixyes" target="_blank" rel="noopener">@dixyes</a> 维护</p><div class="dplayer" id="dplayer1"></div><script>$(function(){var a=new DPlayer({container:document.getElementById("dplayer1"),video:{url:"https://dplayer.b0.upaiyun.com/hikarunara.mp4",pic:"https://dplayer.b0.upaiyun.com/hikarunara.png",thumbnails:"https://dplayer.b0.upaiyun.com/hikarunara_thumbnails.jpg"},danmaku:{id:"diygodme1",api:"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]),window.dplayers.push(a)})</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我实在也不是谦虚，这&lt;del&gt;可能&lt;/del&gt;是目前最好用的两个 Hexo 播放器插件，感谢插件作者（给大佬们递女装&lt;br&gt;本文只作为演示，使用方法和 issue 请移步 GitHub&lt;br&gt;
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>做了一点微小的改动</title>
+    <link href="https://diygod.me/new-blog/"/>
+    <id>https://diygod.me/new-blog/</id>
+    <published>2017-11-26T05:42:42.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>新的开始，只做了一点微小的改动</p><h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h3><p>从 www.anotherhome.net 换成了 diygod.me<br>anotherhome.net 起源于高中比较喜欢的一部番《Another》，年代有些久远，现在剧情都已经记不清了<br><a id="more"></a></p><h3 id="博客程序"><a href="#博客程序" class="headerlink" title="博客程序"></a>博客程序</h3><p>从 WordPress 换到了 Hexo<br>Hexo 是基于 Node.js 的静态博客框架，作为一名不会 php 的弱鸡前端，还是 Hexo 用起来更方便<br>现在博客托管在 GitHub，用又拍云作 CDN，不用再自己维护服务器了</p><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>样式基本保持了一致<br>基于 <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">Next</a> 重构了之前使用的 WordPress 主题，取名 <a href="https://github.com/DIYgod/hexo-theme-sagiri" target="_blank" rel="noopener">Sagiri</a>，我的主题跟纱雾一样可爱<br>除了更可爱，又在原主题基础上加了使用 Webpack 打包 js 的改进和 pjax 的处理</p><p>主题虽然开源了，但是属于自用性质的项目，很多应该做成可定制化的地方都没有做，从开源项目的视角来看做得并不好，而我目前又对制作主题并没有太高的兴致，所以使用之前还请慎重考虑</p><h3 id="博客名"><a href="#博客名" class="headerlink" title="博客名"></a>博客名</h3><p>既然域名都换了，博客名就也从 Anotherhome 换成了 Hi, DIYgod</p><h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h3><p>没了 WordPress 的原生评论，这个还是挺头疼的，纠结了很久最后选了 disqus，然后把之前的评论都迁移过来了<br>想要正常使用需要针对 disq.us | disquscdn.com | disqus.com 启用代理</p><h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><p>很多老文章已经失去了意义，就删了一大半</p><h3 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h3><p>需要重新申请<br>希望先友后链，原则上不再接受不太熟悉的人</p><h3 id="旧存档"><a href="#旧存档" class="headerlink" title="旧存档"></a>旧存档</h3><p><a href="https://archive.anotherhome.net" target="_blank" rel="noopener">https://archive.anotherhome.net</a><br>存档关闭了所有评论，可能会随时挂掉</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;新的开始，只做了一点微小的改动&lt;/p&gt;&lt;h3 id=&quot;域名&quot;&gt;&lt;a href=&quot;#域名&quot; class=&quot;headerlink&quot; title=&quot;域名&quot;&gt;&lt;/a&gt;域名&lt;/h3&gt;&lt;p&gt;从 www.anotherhome.net 换成了 diygod.me&lt;br&gt;anotherhome.net 起源于高中比较喜欢的一部番《Another》，年代有些久远，现在剧情都已经记不清了&lt;br&gt;
+    
+    </summary>
+    
+      <category term="事件簿" scheme="https://diygod.me/categories/%E4%BA%8B%E4%BB%B6%E7%B0%BF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://diygod.me/hello-world/"/>
+    <id>https://diygod.me/hello-world/</id>
+    <published>2017-11-20T11:30:46.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a><br><a id="more"></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="事件簿" scheme="https://diygod.me/categories/%E4%BA%8B%E4%BB%B6%E7%B0%BF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bilibili2RSS — 使用 RSS 订阅 bilibili up主和番剧</title>
+    <link href="https://diygod.me/3264/"/>
+    <id>https://diygod.me/3264/</id>
+    <published>2017-10-17T01:53:34.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一种过气技术，提供 RSS 订阅源的网站越来越少，每个网站都想把用户尽可能长时间地绑在自己那里，而 RSS 可能会造成负面效果</p><p>但在这个内容爆炸时代，只要意识到了「我被信息所绑架」这个问题后，用户自然会想要一种更高级的聚合信息和动态更新解决方案，比如 RSS</p><p>这里提供了使用 RSS 订阅 bilibili up主和番剧的解决方案</p><p>订阅up主：<a href="https://api.prprpr.me/bilibili2rss/user/6997378" target="_blank" rel="noopener">https://api.prprpr.me/bilibili2rss/user/6997378</a></p><p>订阅番剧：<a href="https://api.prprpr.me/bilibili2rss/bangumi/6446" target="_blank" rel="noopener">https://api.prprpr.me/bilibili2rss/bangumi/6446</a></p><p>订阅分区：<a href="https://api.prprpr.me/bilibili2rss/partion/33" target="_blank" rel="noopener">https://api.prprpr.me/bilibili2rss/partion/33</a></p><p>项目名叫 bilibili2RSS，开源在 <a href="https://github.com/DIYgod/bilibili2RSS" target="_blank" rel="noopener">GitHub</a></p><p>另外可以使用相关项目 <a href="https://github.com/DIYgod/Weibo2RSS" target="_blank" rel="noopener">Weibo2RSS</a> 订阅喜欢的微博博主</p><p>Enjoy!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;作为一种过气技术，提供 RSS 订阅源的网站越来越少，每个网站都想把用户尽可能长时间地绑在自己那里，而 RSS 可能会造成负面效果&lt;/p&gt;&lt;p&gt;但在这个内容爆炸时代，只要意识到了「我被信息所绑架」这个问题后，用户自然会想要一种更高级的聚合信息和动态更新解决方案，比如 RSS
+      
+    
+    </summary>
+    
+      <category term="创作集" scheme="https://diygod.me/categories/%E5%88%9B%E4%BD%9C%E9%9B%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我们走过的</title>
+    <link href="https://diygod.me/3207/"/>
+    <id>https://diygod.me/3207/</id>
+    <published>2017-08-28T02:23:24.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<style>#love-map{width:100%}#love-time{text-align:center;margin-bottom:20px;font-size:14px;color:#ef9a9a;display:none}</style><div id="love-time">这是我们共同度过的第<span></span></div><br><div id="love-map"></div><p>上面是一些我们一起去过的地方，其中有一个地点标的是 1996 年，这并不是我写错了，那年我 1 岁，我们是邻居，遗憾的是我们对那几年都没有任何记忆了<a id="more"></a></p><p>&nbsp;</p><p>之后一晃 13 年，刚上高中，我家搬到了高中旁边的一个小区，一天晚上我妈兴奋地跟我说：你猜我晚上散步遇到了谁？</p><p>我肯定是猜不出来的，因为我什么都不记得</p><p>再后来发现她跟我一个班，就这样故事继续了</p><p>那时候每天放学一起回家，关系很亲密，家长老师都很紧张，以为我们在早恋，但我一直在沉迷学习，实际上什么都没发生，放学路上聊的最多的也是功课，现在想起来甚至有些遗憾</p><p>&nbsp;</p><p>但有趣的灵魂终会相遇，5 年以后，这个人又被我诱骗成了女票，我们的故事还会继续下去</p><p>&nbsp;</p><p>回想一下，这些情节居然跟你的名字有一些神似</p><p>（是不会放照片的，长相和性格可以脑补扎着单马尾的岁纳京子</p><script>function love_time(){window.setTimeout(function(){love_time()},1e3);var e=new Date("5/11/2017 00:00:00"),t=((new Date).getTime()-e.getTime())/864e5,o=Math.floor(t),a=24*(t-o),n=Math.floor(a),r=60*(a-n),i=Math.floor(60*(a-n)),m=Math.floor(60*(r-i));$("#love-time span").html(o+"天"+n+"小时"+i+"分"+m+"秒")}function myEcharts(){$("#love-map").height(.8*$("#love-map").width());var e=echarts.init(document.getElementById("love-map"));option=null;var t={"临沂":[118.35,35.05],"武汉":[114.31,30.52],"杭州":[120.19,30.26],"上海":[121.48,31.22],"昆明":[102.73,25.04],"大理":[100.225668,25.589449],"济南":[117,36.65]};option={backgroundColor:"#A7B1CA",geo:{map:"china",label:{emphasis:{show:!1}},roam:!1,itemStyle:{normal:{areaColor:"#fff",borderColor:"#C9CED9"},emphasis:{areaColor:"#DFE0E3"}}},tooltip:{trigger:"item",formatter:function(e){return e.name+" - "+e.value[2]}},series:[{type:"effectScatter",coordinateSystem:"geo",data:function(e){for(var o=[],a=0;a<e.length;a++){var n=t[e[a].name];n&&o.push({name:e[a].name,value:n.concat(e[a].value)})}return o}([{name:"临沂",value:"1996"},{name:"武汉",value:"2015.12"},{name:"杭州",value:"2017.01"},{name:"上海",value:"2017.02"},{name:"昆明",value:"2017.05"},{name:"大理",value:"2017.05"},{name:"济南",value:"2017.05"}]),symbolSize:8,showEffectOn:"render",rippleEffect:{brushType:"stroke"},hoverAnimation:!0,label:{normal:{formatter:"{b}",position:"right",fontSize:14,show:!0}},itemStyle:{normal:{color:"#FD8888"}}}]},e.setOption(option,!0)}$("#love-time").show(),love_time(),window.echarts?myEcharts():$.getScript("https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js",function(){$.getScript("https://cdn.jsdelivr.net/npm/echarts@3.8.5/map/js/china.js",function(){myEcharts()})})</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;style&gt;#love-map{width:100%}#love-time{text-align:center;margin-bottom:20px;font-size:14px;color:#ef9a9a;display:none}&lt;/style&gt;&lt;div id=&quot;love-time&quot;&gt;这是我们共同度过的第&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div id=&quot;love-map&quot;&gt;&lt;/div&gt;&lt;p&gt;上面是一些我们一起去过的地方，其中有一个地点标的是 1996 年，这并不是我写错了，那年我 1 岁，我们是邻居，遗憾的是我们对那几年都没有任何记忆了
+    
+    </summary>
+    
+      <category term="闲言语" scheme="https://diygod.me/categories/%E9%97%B2%E8%A8%80%E8%AF%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>野生 DIYgod 捕获指南</title>
+    <link href="https://diygod.me/3163/"/>
+    <id>https://diygod.me/3163/</id>
+    <published>2017-08-14T01:00:59.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p><span style="font-size:10pt"><em>嘘~ 你们看，我发现了什么？这里有一只落单的 DIYgod，我们可以尝试捕捉它，一只 DIYgod 可以为我们提供好几天的能量，它们富含大量的蛋白质，不过 DIYgod 可不好对付。我们慢慢从后面接近它，小心别发出任何声音。</em></span></p><p>&nbsp;</p><p>DIYgod 可能会在任何地方出现，但只要掌握了 DIYgod 的习性，捕获一只 DIYgod 并不是一件很难的事情<a id="more"></a></p><p>&nbsp;</p><h2 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h2><p><a href="https://t.me/awesomeDIYgod" target="_blank" rel="noopener">Telegram Channel</a>：使用 <a href="https://ifttt.com/" target="_blank" rel="noopener">IFTTT</a> 整合了 DIYgod 的 Twitter、GitHub、微博、博客、直播等几乎全部的更新，和一些不想或懒得发到社交网络的内容</p><p><a href="https://diygod.me/atom.xml">博客 RSS</a>：就是这里</p><p><a href="https://api.prprpr.me/weibo/rss/3306934123" target="_blank" rel="noopener">微博 RSS</a>：使用 <a href="https://github.com/DIYgod/Weibo2RSS" target="_blank" rel="noopener">WeiboRSS</a> 构建</p><p>&nbsp;</p><h2 id="社交网络"><a href="#社交网络" class="headerlink" title="社交网络"></a>社交网络</h2><p><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>：日常、乱七八糟</p><p><a href="https://github.com/DIYgod" target="_blank" rel="noopener">GitHub</a>：emmmm…同性交友</p><p><a href="https://live.bilibili.com/63489" target="_blank" rel="noopener">bilibili 直播</a>：不定期有直播看，可能有奇奇怪怪的内容</p><p><a href="https://www.zhihu.com/people/diygod" target="_blank" rel="noopener">知乎</a>：经常点赞但很少回答问题</p><p>&nbsp;</p><h2 id="群"><a href="#群" class="headerlink" title="群"></a>群</h2><p>芳文社的埃罗芒阿老师：496685635，主群，无主题随便撩，经常换奇奇怪怪的名字</p><p>网红女装屁股战队：624503765，守望先锋开黑</p><p>吃🐔：669026238，大吉大利，今晚吃鸡</p><p>MC的同居生活：397976165，MC 开黑，想一起玩需要申请白名单</p><p>MoePlayer 交流群：415835947，<a href="https://github.com/MoePlayer" target="_blank" rel="noopener">MoePlayer</a> 相关讨论</p><p>线下女装活动小分队：605133465，漫展、面基等线下活动，平时很冷清</p><p><a href="https://t.me/prpr233" target="_blank" rel="noopener">芳文社的埃罗芒阿老师（Telegram）</a>：没有言论审查</p><p><a href="https://t.me/adplayer" target="_blank" rel="noopener">MoePlayer 交流群（Telegram）</a>：<a href="https://github.com/MoePlayer" target="_blank" rel="noopener">MoePlayer</a> 相关讨论</p><p>&nbsp;</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><a href="https://github.com/MoePlayer" target="_blank" rel="noopener">MoePlayer</a>：萌豚技术组织，播放器、音视频、弹幕、解析相关开源开发，<a href="http://player.moe/" target="_blank" rel="noopener">官网</a>建设中，附属有一个私有 Telegram 群，想加可以联系 DIYgod 带上 GitHub 和 Telegram 账号</p><p>&nbsp;</p><h2 id="最喜欢的"><a href="#最喜欢的" class="headerlink" title="最喜欢的"></a>最喜欢的</h2><p><a href="http://weibo.com/573959922" target="_blank" rel="noopener">发小</a>、<a href="https://suannai.cat/" target="_blank" rel="noopener">酸奶</a>、<a href="https://zh.moegirl.org/zh-hans/%E6%91%87%E6%9B%B3%E7%99%BE%E5%90%88" target="_blank" rel="noopener">摇曳百合</a>、<a href="https://space.bilibili.com/883968#!/" target="_blank" rel="noopener">暴走大事件</a>、<a href="https://space.bilibili.com/6997378" target="_blank" rel="noopener">微小微</a>、<a href="http://www.zimuzu.tv/resource/10733" target="_blank" rel="noopener">权力的游戏</a>、<a href="https://www.bilibili.com/" target="_blank" rel="noopener">bilibili</a>、<a href="https://github.com/DIYgod" target="_blank" rel="noopener">写代码</a>、<a href="https://diygod.me/links">你们</a></p><p>&nbsp;</p><h2 id="最讨厌的"><a href="#最讨厌的" class="headerlink" title="最讨厌的"></a>最讨厌的</h2><p><a href="http://www.alibabagroup.com/" target="_blank" rel="noopener">阿里</a>、墙</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;span style=&quot;font-size:10pt&quot;&gt;&lt;em&gt;嘘~ 你们看，我发现了什么？这里有一只落单的 DIYgod，我们可以尝试捕捉它，一只 DIYgod 可以为我们提供好几天的能量，它们富含大量的蛋白质，不过 DIYgod 可不好对付。我们慢慢从后面接近它，小心别发出任何声音。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;DIYgod 可能会在任何地方出现，但只要掌握了 DIYgod 的习性，捕获一只 DIYgod 并不是一件很难的事情
+    
+    </summary>
+    
+      <category term="闲言语" scheme="https://diygod.me/categories/%E9%97%B2%E8%A8%80%E8%AF%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>让咕咕机再次伟大</title>
+    <link href="https://diygod.me/3116/"/>
+    <id>https://diygod.me/3116/</id>
+    <published>2017-08-11T02:11:43.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<style>.gugu-print{display:none;margin-top:20px}.gugu-btn{cursor:pointer;border:1px solid #eee;display:inline-block;padding:5px 10px;background:#fff;border-radius:4px}.gugu-login-btn-wrap{text-align:center}.gugu-login-btn{cursor:pointer}.gugu-user{display:none;text-align:center}.gugu-avatar{display:inline-block;height:50px;width:50px;background-size:contain;border-radius:50%}.gugu-info{padding-top:25px;font-weight:700;line-height:25px}.gugu-name{font-size:18px}.gugu-textarea{width:100%;height:100px;font-size:14px;padding:10px;box-sizing:border-box}.gugu-input{width:100%;font-size:14px;padding:10px;box-sizing:border-box}</style><p>咕咕机的官方发送平台非常反人类，发送接口没有任何长度和频率限制，又可以匿名发送…所以经常被人刷垃圾信息…群里经常有人反馈但官方就是不改…好在咕咕机是开发接口的</p><p>就这样我封装了一个增强版 API，开源在 GitHub： <a href="https://github.com/DIYgod/gugu-node-api" target="_blank" rel="noopener">https://github.com/DIYgod/gugu-node-api</a></p><p>特性：强制微博登录、不允许匿名、长度限制、发送频率限制、跨域限制、黑名单机制</p><p>好了，点击下面按钮，登录后继续跟我表白吧！</p><p></p><div class="gugu-login-btn-wrap"><img class="no-fancybox gugu-login-btn" src="/images/weibo2login.png"></div><p></p><p></p><div class="gugu-user"><br><div class="gugu-info"><br><div class="gugu-avatar"></div><br><div class="gugu-name"></div><br></div><br><div class="gugu-btn gugu-logout-btn">退出登录</div><br></div><p></p><p></p><div class="gugu-print"><br><textarea class="gugu-textarea" placeholder="输入文本内容"></textarea><br><div class="gugu-btn gugu-send-btn-text">咕咕文字</div><br><input type="text" class="gugu-input" placeholder="输入图片地址"><br><div class="gugu-btn gugu-send-btn-pic">咕咕图片</div><br></div><p></p><script>function gugushow(t){$.ajax({url:"https://api.anotherhome.net/gugu/account",xhrFields:{withCredentials:!0},success:function(t){t&&($(".gugu-avatar").css("background-image","url("+t._json.avatar_large.replace("http","https")+")"),$(".gugu-name").html("Hi, "+t.displayName),$(".gugu-user").show(),$(".gugu-print").show(),$(".gugu-login-btn-wrap").hide())}})}gugushow(),$(".gugu-login-btn").click(function(){window.location.href="https://api.anotherhome.net/gugu/login"}),$(".gugu-logout-btn").click(function(){window.location.href="https://api.anotherhome.net/gugu/logout"}),$(".gugu-send-btn-text").click(function(){$(".gugu-textarea").val()&&$.ajax({url:"https://api.anotherhome.net/gugu/print",type:"post",data:JSON.stringify({type:"1",content:$(".gugu-textarea").val()}),xhrFields:{withCredentials:!0},success:function(t){t?t.code&&t.msg?notie("error",t.msg):t.msg?notie("success",t.msg):notie("error","打印失败"):notie("error","打印失败")},error:function(){notie("error","打印失败")}})}),$(".gugu-send-btn-pic").click(function(){$.ajax({url:"https://api.anotherhome.net/gugu/print",type:"post",data:JSON.stringify({type:"2",content:$(".gugu-input").val()}),xhrFields:{withCredentials:!0},success:function(t){t?t.code&&t.msg?notie("error",t.msg):t.msg?notie("success",t.msg):notie("error","打印失败"):notie("error","打印失败")},error:function(){notie("error","打印失败")}})})</script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;style&gt;.gugu-print{display:none;margin-top:20px}.gugu-btn{cursor:pointer;border:1px solid #eee;display:inline-block;padding:5px 10px;backgro
+      
+    
+    </summary>
+    
+      <category term="创作集" scheme="https://diygod.me/categories/%E5%88%9B%E4%BD%9C%E9%9B%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>现在可以给网红写小纸条表白了！</title>
+    <link href="https://diygod.me/2978/"/>
+    <id>https://diygod.me/2978/</id>
+    <published>2017-07-02T22:46:40.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近跟我表白的人太多了，所以我买了一个<a href="http://www.memobird.cn" target="_blank" rel="noopener">咕咕机</a>，现在访问 <a href="/make-gugu-great-again">让咕咕机再次伟大</a> 就可以很方便地写小纸条跟我表白了。<a id="more"></a></p><p>比如</p><p><img src="/images/gugu1.jpg" alt=""></p><p>就像小时候偷偷在课桌间传递的小纸条一样温暖。</p><p>&nbsp;</p><p>除此之外，咕咕机还可以做很多有趣的事情：<a href="https://www.zhihu.com/question/39529878" target="_blank" rel="noopener">MEMOBIRD 咕咕机有哪些有趣的玩法？</a></p><p>再加上咕咕机是<a href="http://open.memobird.cn/" target="_blank" rel="noopener">开放API</a>的，又可以连接 <a href="https://ifttt.com/" target="_blank" rel="noopener">IFTTT</a>，对一个开发者来说可以做的事情就更多了，比如配合 <a href="https://github.com/DIYgod/Weibo2RSS" target="_blank" rel="noopener">Weibo2RSS</a> 和 IFTTT 还可以用来实时打印喜欢的小姐姐新发的微博。</p><p>&nbsp;</p><p>今年的送明信片活动也打算用这个来报名，诶嘿嘿。</p><p>[hermit autoplay=”false” mode=”circulation”]netease_songlist#:28445467[/hermit]</p><p>以下（给我打印宪法）是错误的用法：</p><p><img src="/images/gugu2.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近跟我表白的人太多了，所以我买了一个&lt;a href=&quot;http://www.memobird.cn&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;咕咕机&lt;/a&gt;，现在访问 &lt;a href=&quot;/make-gugu-great-again&quot;&gt;让咕咕机再次伟大&lt;/a&gt; 就可以很方便地写小纸条跟我表白了。
+    
+    </summary>
+    
+      <category term="闲言语" scheme="https://diygod.me/categories/%E9%97%B2%E8%A8%80%E8%AF%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Service Workers 实现网站加速和离线缓存</title>
+    <link href="https://diygod.me/2954/"/>
+    <id>https://diygod.me/2954/</id>
+    <published>2017-03-06T22:42:12.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近看到了 Service Workers 这个东西，它可以根据配置为用户缓存网站静态与动态资源：截获用户的所有网络请求，根据缓存配置来决定是从缓存还是网络获取相应资源，从而可以极大提高网页的加载速度。优点有可定制性高、不需要服务端支持、效果显著。</p><p>最后的效果就是当你第二次访问我的网站时只会加载大约80k 的资源（除去 AdSense 的情况下），这其中包括了所有图片和音频视频，这 80k 主要是 HTML 和我使用的 <a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="noopener">DPlayer</a> 的 API。</p><p><img src="/images/sw4.jpg" alt=""></p><p>甚至可以在断开网络时访问（剪断网线试试吧）：</p><p><img src="/images/sw2.jpg" alt=""></p><p><a id="more"></a>当然局限性也是有的：</p><p>只支持 HTTPS，因为可以截获用户的网络请求，需要在一个安全的环境。</p><p>兼容性不太好，<a href="http://caniuse.com/#search=service%20worker" target="_blank" rel="noopener">点击查看兼容性报告</a>，目前只有 Chrome Firefox Opera 和部分 Android 浏览器 支持。</p><p><img src="/images/sw3.jpg" alt=""></p><p>使用方法网上有很多教程，这里不赘述了，推荐这几篇吧：</p><p><a href="https://metaquant.org/service%20worker-web%20performance-cache.html" target="_blank" rel="noopener">使用service worker+sw-precache实现网站加速</a></p><p><a href="https://yangbo.tech/2017/01/15/2017-01-15-speedy-and-offline-site-by-service-worker/" target="_blank" rel="noopener">使用Service worker实现加速/离线访问静态blog网站</a></p><p><a href="https://segmentfault.com/a/1190000008491458" target="_blank" rel="noopener">Service Workers 与离线缓存</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看到了 Service Workers 这个东西，它可以根据配置为用户缓存网站静态与动态资源：截获用户的所有网络请求，根据缓存配置来决定是从缓存还是网络获取相应资源，从而可以极大提高网页的加载速度。优点有可定制性高、不需要服务端支持、效果显著。&lt;/p&gt;&lt;p&gt;最后的效果就是当你第二次访问我的网站时只会加载大约80k 的资源（除去 AdSense 的情况下），这其中包括了所有图片和音频视频，这 80k 主要是 HTML 和我使用的 &lt;a href=&quot;https://github.com/DIYgod/DPlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DPlayer&lt;/a&gt; 的 API。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/images/sw4.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;甚至可以在断开网络时访问（剪断网线试试吧）：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/images/sw2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一只叫酸奶的喵</title>
+    <link href="https://diygod.me/2939/"/>
+    <id>https://diygod.me/2939/</id>
+    <published>2017-03-02T22:31:04.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p>酸奶是我家新招的猫女仆，她有一个博客：<a href="https://suannai.cat/" target="_blank" rel="noopener">https://suannai.cat</a></p><p><img src="/images/suannai.png" alt=""><a id="more"></a></p><p>Q: 你是谁？<br>A: 我是酸奶，来自喵星，是个可爱的女孩子，我的铲屎官是 DIYgod，对他好点，他是我罩的。</p><p>Q: 你的身世是怎样的？<br>A: 我还有6个兄弟姐妹，有一个姐姐（<a href="http://blog.zanyuyu.com/tags/%E7%8C%AB/" target="_blank" rel="noopener">蛋糕</a>）在<a href="http://weibo.com/zanyuyu" target="_blank" rel="noopener">赞鱼鱼</a>家；2017 年 2 月 23 日起正式雇佣 DIYgod 为我的铲屎官。</p><p>Q: 你多大了？<br>A: 50多天了，所以不要把我当一个月的小屁喵看待了。</p><p>Q: 你是什么品种的？<br>A: 美短，加白，非纯种。</p><p>Q: 你最喜欢什么？<br>A: 吃肉。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;酸奶是我家新招的猫女仆，她有一个博客：&lt;a href=&quot;https://suannai.cat/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://suannai.cat&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/images/suannai.png&quot; alt=&quot;&quot;&gt;
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>女朋友的微博情绪监控</title>
+    <link href="https://diygod.me/2920/"/>
+    <id>https://diygod.me/2920/</id>
+    <published>2017-02-09T01:05:40.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/weibo-negative.png" alt=""></p><p>就是这样，代码写好了，就差个女朋友了。</p><p>最后的效果就是检测某一微博博主新发的微博，如果判断为消极情绪就发出警告（手机通知、邮件通知、自动发一条上图那样的微博之类的）。</p><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/DIYgod/Weibo2RSS" target="_blank" rel="noopener">https://github.com/DIYgod/Weibo2RSS</a> 以 RSS 形式输出消极情绪的微博</p><p><a href="https://github.com/DIYgod/Text2Emotion" target="_blank" rel="noopener">https://github.com/DIYgod/Text2Emotion</a> 分析一句话的情绪值<a id="more"></a></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>消极情绪微博 RSS 配合 IFTTT 使用，具体设置如下图，条件是 RSS 出现新内容，行为是发一条微博通知（也可以改成手机通知或者邮件通知等）。</p><p><img src="/images/negtivewbifttt.png" alt=""></p><p>&nbsp;</p><h2 id="开发过程"><a href="#开发过程" class="headerlink" title="开发过程"></a>开发过程</h2><p>下面是我的开发过程。</p><h3 id="一、分词"><a href="#一、分词" class="headerlink" title="一、分词"></a>一、分词</h3><p>这东西自己做不来，所以只好找现成的解决方案，找到了下面几个：</p><p><a href="https://github.com/fxsjy/jieba" target="_blank" rel="noopener">结巴中文分词</a></p><p><a href="http://www.ltp-cloud.com/" target="_blank" rel="noopener">哈工大语言技术平台云</a></p><p><a href="http://www.sinacloud.com/doc/sae/python/segment.html" target="_blank" rel="noopener">新浪云中文分词</a></p><p><a href="https://www.xfyun.cn/services/ltp" target="_blank" rel="noopener">讯飞语言云</a></p><p><a href="https://www.qcloud.com/document/product/271" target="_blank" rel="noopener">腾讯文智</a></p><p>除了腾讯文智其他都是免费或者开源的，简单比较之后选择了锤子 Big Bang 也在用的讯飞。</p><h3 id="二、情绪分析"><a href="#二、情绪分析" class="headerlink" title="二、情绪分析"></a>二、情绪分析</h3><p>这个关键在于词典，也是找现成的：</p><p><a href="http://www.datatang.com/data/44317" target="_blank" rel="noopener">中文情感极性词典 NTUSD</a></p><p><a href="http://大连理工情感词汇本体库" target="_blank" rel="noopener">大连理工情感词汇本体库</a></p><p>大连理工的本体库标注了超过两万词语，包括这些词语词性种类、情感类别、情感强度及极性等信息，像下面这样：</p><p><img src="/images/dllgemotion.png" alt=""></p><p>看起来很不错，就选择了这个。</p><p>词典下载下来是一个 excel 表格，把它先另存为成 csv 格式，然后就可以导入到 mongodb 数据库里了。</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mongoimport -d emotion -c emo --<span class="built_in">type</span> csv --headerline --file emotion.csv</span><br></pre></td></tr></table></figure><h3 id="三、情绪值计算"><a href="#三、情绪值计算" class="headerlink" title="三、情绪值计算"></a>三、情绪值计算</h3><p>把要分析的话进行分词处理，再把每个词语的情绪值进行累加，就可以得出一条微博的情绪值。</p><p>这里其实还有很多算法工作可以做，但简单起见，我只是进行了累加。</p><p>然后写完发现效果很差，原因是词典内容太少，很多词语都没有，所以很多句子根本判断不出来。</p><p>&nbsp;</p><p>最后废弃了上面的所有东西，直接使用腾讯文智的收费服务。。。</p><h3 id="四、应用到微博"><a href="#四、应用到微博" class="headerlink" title="四、应用到微博"></a>四、应用到微博</h3><p>抓取微博内容的原理很简单，新浪微博的<a href="http://service.weibo.com/widget/widget_blog.php?uid=3306934123" target="_blank" rel="noopener">微博秀</a>是不需要登录就可以访问的，直接使用 Node.js 解析页面就可以拿到微博内容。</p><p>然后对微博内容进行情绪值计算，把消极情绪的微博输出成 RSS。</p><h3 id="五、监控"><a href="#五、监控" class="headerlink" title="五、监控"></a>五、监控</h3><p>输出成 RSS，监控也容易了，其中 <a href="https://ifttt.com" target="_blank" rel="noopener">IFTTT</a> 效果最佳，检测到 RSS 有新内容时，可以触发手机通知、邮件通知、发一条微博等行为。</p><p>&nbsp;</p><p>以上，其实最大的问题还是：我差个女朋友。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/weibo-negative.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;就是这样，代码写好了，就差个女朋友了。&lt;/p&gt;&lt;p&gt;最后的效果就是检测某一微博博主新发的微博，如果判断为消极情绪就发出警告（手机通知、邮件通知、自动发一条上图那样的微博之类的）。&lt;/p&gt;&lt;h2 id=&quot;项目地址&quot;&gt;&lt;a href=&quot;#项目地址&quot; class=&quot;headerlink&quot; title=&quot;项目地址&quot;&gt;&lt;/a&gt;项目地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DIYgod/Weibo2RSS&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/DIYgod/Weibo2RSS&lt;/a&gt; 以 RSS 形式输出消极情绪的微博&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DIYgod/Text2Emotion&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/DIYgod/Text2Emotion&lt;/a&gt; 分析一句话的情绪值
+    
+    </summary>
+    
+      <category term="创作集" scheme="https://diygod.me/categories/%E5%88%9B%E4%BD%9C%E9%9B%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微小微直播回放第三弹</title>
+    <link href="https://diygod.me/2889/"/>
+    <id>https://diygod.me/2889/</id>
+    <published>2016-12-16T02:10:44.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png" alt=""></p><p>老婆真是越来越可爱了，啊啊啊我要死了。</p><a id="more"></a><p>直播中间断了一次，所以分成两个视频。</p><style>.dplayer-time{display:inline-block!important}</style><div id="dplayer7" class="dplayer"></div><p>&nbsp;</p><div id="dplayer8" class="dplayer"></div><p>&nbsp;</p><p>第一弹：<a href="https://www.anotherhome.net/2805" target="_blank" rel="noopener">https://www.anotherhome.net/2805</a><br>第二弹：<a href="https://www.anotherhome.net/2847" target="_blank" rel="noopener">https://www.anotherhome.net/2847</a></p><script src="https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js"></script><script>$(function(){function e(){var e=new DPlayer({element:document.getElementById("dplayer7"),autoplay:!0,theme:"#FADFA3",loop:!0,screenshot:!0,video:{url:"https://dplayer.b0.upaiyun.com/wxwlive/1216/1/index.m3u8",pic:"https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png"},danmaku:{id:"8810755617f77d00",api:"https://api.prprpr.me/dplayer/",token:"tokendemo",addition:["https://dplayer.b0.upaiyun.com/wxwlive/1216/1/danmaku.json"]}}),p=new DPlayer({element:document.getElementById("dplayer8"),autoplay:!1,theme:"#FADFA3",loop:!0,screenshot:!0,video:{url:"https://dplayer.b0.upaiyun.com/wxwlive/1216/2/index.m3u8",pic:"https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png"},danmaku:{id:"f9e80f1d90cd12f5",api:"https://api.prprpr.me/dplayer/",token:"tokendemo",addition:["https://dplayer.b0.upaiyun.com/wxwlive/1216/2/danmaku.json"]}});window.dplayers||(window.dplayers=[]),window.dplayers.push(e),window.dplayers.push(p)}window.Hls&&window.DPlayer?e():$.getScript("https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js",function(){e()})})</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;老婆真是越来越可爱了，啊啊啊我要死了。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1000 天成就达成！</title>
+    <link href="https://diygod.me/2855/"/>
+    <id>https://diygod.me/2855/</id>
+    <published>2016-11-05T22:39:54.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p><span style="font-size:16pt"><strong>Anotherhome</strong></span></p><p><strong>2014.02.09 - 2016.11.05</strong></p><p>Made with by DIYgod</p><p>&nbsp;</p><p><img src="/images/1000.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;strong&gt;Anotherhome&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;2014.02.09 - 2016.11.05&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Made with by DIYgod
+      
+    
+    </summary>
+    
+      <category term="事件簿" scheme="https://diygod.me/categories/%E4%BA%8B%E4%BB%B6%E7%B0%BF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微小微直播回放第二弹</title>
+    <link href="https://diygod.me/2847/"/>
+    <id>https://diygod.me/2847/</id>
+    <published>2016-11-03T01:36:18.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://dplayer.b0.upaiyun.com/wxwlive/1102/poster.png" alt=""></p><p>本次弹幕总计 11156 条、弹幕文件 1.2 MB。</p><a id="more"></a><style>.dplayer-time{display:inline-block!important}</style><div class="dplayer" id="dplayer5"></div><p>&nbsp;</p><p>第一弹：<a href="https://www.anotherhome.net/2805" target="_blank" rel="noopener">https://www.anotherhome.net/2805</a></p><script src="https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js"></script><script>$(function(){function e(){var e=new DPlayer({element:document.getElementById("dplayer5"),autoplay:!0,theme:"#FADFA3",loop:!0,screenshot:!0,video:{url:"https://dplayer.b0.upaiyun.com/wxwlive/1102/index.m3u8",pic:"https://dplayer.b0.upaiyun.com/wxwlive/1102/poster.png"},danmaku:{id:"f171a0b104c1fd55",api:"https://api.prprpr.me/dplayer/",token:"tokendemo",maximum:3e3,addition:["https://dplayer.b0.upaiyun.com/wxwlive/1102/danmaku.json"]}});window.dplayers||(window.dplayers=[]),window.dplayers.push(e)}window.Hls?e():$.getScript("https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js",function(){e()})})</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://dplayer.b0.upaiyun.com/wxwlive/1102/poster.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;本次弹幕总计 11156 条、弹幕文件 1.2 MB。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Weibo2RSS — 使用 RSS 订阅喜欢的微博博主</title>
+    <link href="https://diygod.me/2837/"/>
+    <id>https://diygod.me/2837/</id>
+    <published>2016-11-02T13:41:01.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 RSS 订阅喜欢的微博博主（比如我）吧~</p><p>Demo：<a href="https://api.prprpr.me/weibo/rss/3306934123" target="_blank" rel="noopener">https://api.prprpr.me/weibo/rss/3306934123</a></p><p>RSS 格式输出一个微博博主最新的 15 条微博，可以使用 RSS 阅读器来获取及时推送，配合 <a href="https://ifttt.com/" target="_blank" rel="noopener">IFTTT</a> 还可以实现更多好玩的功能。</p><p>原理：新浪微博的<a href="http://service.weibo.com/widget/widget_blog.php?uid=3306934123" target="_blank" rel="noopener">微博秀</a>是不需要登录就可以访问的，使用 Node.js 解析页面，然后输出 RSS 格式。</p><p>使用及搭建方法：见 <a href="https://github.com/DIYgod/Weibo2RSS" target="_blank" rel="noopener">GitHub</a>。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用 RSS 订阅喜欢的微博博主（比如我）吧~&lt;/p&gt;&lt;p&gt;Demo：&lt;a href=&quot;https://api.prprpr.me/weibo/rss/3306934123&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://api.prprpr
+      
+    
+    </summary>
+    
+      <category term="创作集" scheme="https://diygod.me/categories/%E5%88%9B%E4%BD%9C%E9%9B%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微小微直播回放的 DPlayer 实现</title>
+    <link href="https://diygod.me/2805/"/>
+    <id>https://diygod.me/2805/</id>
+    <published>2016-10-20T20:15:18.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p>以下为10月19日<a href="http://weibo.com/u/2025479687" target="_blank" rel="noopener">微小微</a>在<a href="http://m.yizhibo.com/l/n6VHhuJoCbMf41Nx.html" target="_blank" rel="noopener">一直播</a>的直播回放（迷妹脸，弹幕也成功扒下来转成 <a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="noopener">DPlayer</a> 可以识别的格式啦。</p><p>视频有时出现卡顿是直播的原因；弹幕总计 15768 条、弹幕文件 1.7 MB，第一条弹幕在 13 秒出现。</p><p>一直播弹幕池与 DPlayer 弹幕池互不影响，也可以在下面发弹幕哟。</p><a id="more"></a><style>.dplayer-time{display:inline-block!important}</style><div class="dplayer" id="dplayer4"></div><p>&nbsp;</p><h2 id="视频及弹幕搬运"><a href="#视频及弹幕搬运" class="headerlink" title="视频及弹幕搬运"></a>视频及弹幕搬运</h2><p>直播第二天发现一直播有昨天的回放，开心到晕掉，醒过来之后开始想办法下载视频和弹幕。</p><h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><p>网上找不到下载一直播视频的工具，只好自己动手，浏览器开发者工具看到页面加载了一个 m3u8 文件，然后就是下载 m3u8 文件里的 354 个视频片段就好了。</p><p>写了个 shell 脚本批量下载：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">for</span> k <span class="keyword">in</span> $( seq 1 354 )</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">   wget http://xxx/<span class="variable">$&#123;k&#125;</span>.ts</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure><p>DPlayer 早就做了对 m3u8 格式的支持，不用对视频片段做任何后续处理。</p><p>视频下载完成。</p><h3 id="弹幕"><a href="#弹幕" class="headerlink" title="弹幕"></a>弹幕</h3><p>同样用开发者工具抓包，找到弹幕文件请求的规律。</p><p>第一个弹幕片段是 <a href="http://xxx?ts=1" target="_blank" rel="noopener">http://xxx?ts=1</a> ，其他的弹幕片段也只有ts参数不同。然后ts参数的规律是这样的：下一个片段的参数是上一个片段返回值里的最后一个ts值。</p><p>知道规律后就写了个 js 脚本来下载弹幕和把弹幕转换成 DPlayer 的格式。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ajaxDan</span>(<span class="params">ts</span>) </span>&#123;</span><br><span class="line">    $.ajax(&#123;</span><br><span class="line">        url: <span class="string">`http://xxx?ts=<span class="subst">$&#123;ts&#125;</span>`</span>,</span><br><span class="line">        success: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> tli = <span class="built_in">parseInt</span>(data.data.list[data.data.list.length - <span class="number">1</span>].ts)+<span class="number">1</span>;</span><br><span class="line">            <span class="built_in">console</span>.log(tli);</span><br><span class="line">            data.data.list.map(<span class="function"><span class="keyword">function</span> (<span class="params">i</span>) </span>&#123;</span><br><span class="line">                dan[index] = &#123;</span><br><span class="line">                    author: <span class="string">"yizhibon"</span> + i.nickname,</span><br><span class="line">                    time: <span class="built_in">parseInt</span>(i.ts) / <span class="number">1000</span>,</span><br><span class="line">                    text: i.content,</span><br><span class="line">                    color: <span class="string">'#fff'</span>,</span><br><span class="line">                    type: <span class="string">'right'</span></span><br><span class="line">                &#125;</span><br><span class="line">                index++;</span><br><span class="line">            &#125;);</span><br><span class="line">            ajaxDan(tli)&#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> dan = [];</span><br><span class="line"><span class="keyword">var</span> index = <span class="number">0</span>;</span><br><span class="line">ajaxDan(<span class="number">1</span>);</span><br></pre></td></tr></table></figure><p>运行结果：536 个视频片段，15768 条弹幕</p><p><img src="/images/wxwlive1.jpg" alt=""></p><p>然后把弹幕对象字符串化，复制到 json 文件里。</p><p>完成。</p><script src="https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js"></script><script>$(function(){function e(){var e=new DPlayer({element:document.getElementById("dplayer4"),autoplay:!0,theme:"#FADFA3",loop:!0,screenshot:!0,video:{url:"https://dplayer.b0.upaiyun.com/wxwlive/1019/index.m3u8",pic:"https://dplayer.b0.upaiyun.com/wxwlive/1019/poster.png"},danmaku:{id:"02d53ea190dc8583",api:"https://api.prprpr.me/dplayer/",token:"tokendemo",maximum:3e3,addition:["https://dplayer.b0.upaiyun.com/wxwlive/1019/danmaku.json"]}});window.dplayers||(window.dplayers=[]),window.dplayers.push(e)}window.Hls?e():$.getScript("https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js",function(){e()})})</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以下为10月19日&lt;a href=&quot;http://weibo.com/u/2025479687&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;微小微&lt;/a&gt;在&lt;a href=&quot;http://m.yizhibo.com/l/n6VHhuJoCbMf41Nx.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;一直播&lt;/a&gt;的直播回放（迷妹脸，弹幕也成功扒下来转成 &lt;a href=&quot;https://github.com/DIYgod/DPlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DPlayer&lt;/a&gt; 可以识别的格式啦。&lt;/p&gt;&lt;p&gt;视频有时出现卡顿是直播的原因；弹幕总计 15768 条、弹幕文件 1.7 MB，第一条弹幕在 13 秒出现。&lt;/p&gt;&lt;p&gt;一直播弹幕池与 DPlayer 弹幕池互不影响，也可以在下面发弹幕哟。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>WordPress 反垃圾评论大作战</title>
+    <link href="https://diygod.me/2770/"/>
+    <id>https://diygod.me/2770/</id>
+    <published>2016-10-10T01:21:05.000Z</published>
+    <updated>2017-12-21T04:39:03.346Z</updated>
+    
+    <content type="html"><![CDATA[<p>WordPress 垃圾评论一直是超级多超级烦人的，如果没有有效的拦截方案，网站就会瞬间被每天几百条的垃圾评论淹没。</p><p>因为是每个 WordPress 站点都无法避免的问题，大家各显神通，做出的解决方案也挺多的，这里总结一下每种方法的特点和利弊：<a id="more"></a></p><h3 id="识别垃圾评论"><a href="#识别垃圾评论" class="headerlink" title="识别垃圾评论"></a>识别垃圾评论</h3><p>以 Akismet 插件为代表，根据评论内容或评论者的信息判断评论是否为垃圾评论，再决定是否拦截。开启后能拦截掉几乎所有垃圾评论，但这种方法最大的缺陷是<strong>误判</strong>，本站之前一直在用 Akismet 插件，误判的概率还是挺大的，即使经常去垃圾箱查看，偶尔一条的正常评论和一大堆垃圾评论一起混在垃圾箱也很容易被遗漏；其次会拖慢提交评论的速度，因为每条评论都要先被发到 Akismet 的国外服务器做识别。</p><p>&nbsp;</p><h3 id="禁止非中文评论"><a href="#禁止非中文评论" class="headerlink" title="禁止非中文评论"></a>禁止非中文评论</h3><p>90%以上的垃圾评论都来自国外，所以这种方法可以拦截掉90%以上的垃圾评论，但缺点是无法发送纯表情和类似“2333”、“Thanks”这种正常评论了，而且中文的垃圾评论也无法拦截掉。</p><p>&nbsp;</p><h3 id="修改评论-post-地址"><a href="#修改评论-post-地址" class="headerlink" title="修改评论 post 地址"></a>修改评论 post 地址</h3><p>这种方法虽然看起来有点自欺欺人，但效果出奇地好，因为绝大部分的垃圾评论都是智障一样只知道通过 post 网站根目录的 wp-comments-post.php 来提交垃圾评论的。稍微麻烦一点的是 WordPress 每次升级都要重新修改。</p><p>&nbsp;</p><h3 id="人工验证插件"><a href="#人工验证插件" class="headerlink" title="人工验证插件"></a>人工验证插件</h3><p>比如拖动解锁、拼图、验证码，效果是不错，但牺牲了用户体验，对小站来说没必要。</p><p>&nbsp;</p><h3 id="设置-token"><a href="#设置-token" class="headerlink" title="设置 token"></a>设置 token</h3><p>本站现在换用了这种方法，原理是每次刷新页面，后端都会返回一个不同的 token 放到页面上任意位置，然后在合适的时机用 JavaScript 将 token 填充到一个隐藏的 input 里面，提交评论时将隐藏 input 的值（正常情况是 token）一起提交，后端通过判断该值是否合法来判断评论是不是通过正常途径提交的。虽然这种方法也是可以破解的，但破解难度明显高了很多，更重要的是 token 算法和隐藏 input 的结构容易更改，每次简单的小修改都可以让破解失效。</p><p>使用也很简单，将如下代码放到主题的 function.php 即可，代码如下：</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">$leonax_magic_lower = <span class="number">328</span>;  <span class="comment">// token 最小值，自己随意修改</span></span><br><span class="line">$leonax_magic_upper = <span class="number">3450709</span>;  <span class="comment">// token 最大值，自己随意修改</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">leonax_anti_spam_form</span><span class="params">($fields)</span></span>&#123;</span><br><span class="line">    <span class="keyword">global</span> $leonax_magic_lower, $leonax_magic_upper;</span><br><span class="line">    $leonax_magic = mt_rand($leonax_magic_lower, $leonax_magic_upper);  <span class="comment">// 放在页面的token值，是一个随机数，每次都不同</span></span><br><span class="line">    $fields[<span class="string">'leonax_magic'</span>] = &amp;lt;&amp;lt;&amp;lt;EOT</span><br><span class="line">        &amp;lt;input type=<span class="string">"hidden"</span> id=<span class="string">"leonax-magic"</span> name=<span class="string">"leonax-magic"</span> value=<span class="string">"0"</span>&amp;gt;  <span class="comment">// 隐藏的 input</span></span><br><span class="line">        &amp;lt;script&amp;gt;</span><br><span class="line">            $(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                $(<span class="string">"#comment-content"</span>).on(<span class="string">"keyup"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;  <span class="comment">// js 检测到触发 keyup、click 或 touch 事件时填充 token</span></span><br><span class="line">                    $(<span class="string">"#leonax-magic"</span>).val(<span class="string">"$leonax_magic"</span>);</span><br><span class="line">                &#125;);</span><br><span class="line">                $(<span class="string">'body'</span>).on(<span class="string">'click touch'</span>, <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">                    $(<span class="string">"#leonax-magic"</span>).val(<span class="string">"$leonax_magic"</span>);</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;)</span><br><span class="line">        &amp;lt;/script&amp;gt;</span><br><span class="line">EOT;</span><br><span class="line">    <span class="keyword">return</span> $fields;</span><br><span class="line">&#125;</span><br><span class="line">add_filter(<span class="string">'comment_form_default_fields'</span>, <span class="string">'leonax_anti_spam_form'</span>);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">leonax_anit_spam_caught</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    wp_die(<span class="string">'&amp;lt;strong&amp;gt;评论失败&amp;lt;/strong&amp;gt;: 垃圾评论什么的去死吧！'</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">leonax_anti_spam_check</span><span class="params">( $commentdata )</span> </span>&#123;</span><br><span class="line">    $comment_type = <span class="string">''</span>;</span><br><span class="line">    <span class="keyword">if</span> ( <span class="keyword">isset</span>($commentdata[<span class="string">'comment_type'</span>]) ) &#123;</span><br><span class="line">        $comment_type = trim($commentdata[<span class="string">'comment_type'</span>]);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> ( ($comment_type == <span class="string">'pingback'</span>) || ($comment_type == <span class="string">'trackback'</span>) ) &#123;</span><br><span class="line">        <span class="keyword">return</span> $commentdata;</span><br><span class="line">    &#125;</span><br><span class="line">    $content = <span class="string">''</span>;</span><br><span class="line">    <span class="keyword">if</span> ( <span class="keyword">isset</span>($commentdata[<span class="string">'comment_content'</span>]) ) &#123;</span><br><span class="line">        $content = trim($commentdata[<span class="string">'comment_content'</span>]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (!strlen($content)) &#123;</span><br><span class="line">        leonax_anit_spam_caught();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">global</span> $leonax_magic_lower, $leonax_magic_upper;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> ( <span class="keyword">isset</span>($commentdata[<span class="string">'user_ID'</span>]) &amp;amp;&amp;amp; $commentdata[<span class="string">'user_ID'</span>] ) &#123; <span class="comment">// 登陆用户不做判断</span></span><br><span class="line">        <span class="keyword">return</span> $commentdata;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> ( !<span class="keyword">isset</span>($_POST[<span class="string">'leonax-magic'</span>]) ) &#123;</span><br><span class="line">        leonax_anit_spam_caught();</span><br><span class="line">    &#125;</span><br><span class="line">    $magic = intval($_POST[<span class="string">'leonax-magic'</span>]);</span><br><span class="line">    <span class="keyword">if</span> ($magic &amp;lt; $leonax_magic_lower || $magic &amp;gt; $leonax_magic_upper) &#123;  <span class="comment">// token 值在上面设置的最大值和最小值之间才合法</span></span><br><span class="line">        leonax_anit_spam_caught();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> $commentdata;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">add_filter( <span class="string">'preprocess_comment'</span> , <span class="string">'leonax_anti_spam_check'</span> );</span><br></pre></td></tr></table></figure><p>以上代码来自 <a href="https://leonax.net/p/6732/block-spam-comments-from-web-page/" target="_blank" rel="noopener">LEONA+</a> 和 <a href="https://justyy.com/archives/1558" target="_blank" rel="noopener">JustYY.com</a>。</p><p>&nbsp;</p><p>目前只找到这几种方法，欢迎补充。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;WordPress 垃圾评论一直是超级多超级烦人的，如果没有有效的拦截方案，网站就会瞬间被每天几百条的垃圾评论淹没。&lt;/p&gt;&lt;p&gt;因为是每个 WordPress 站点都无法避免的问题，大家各显神通，做出的解决方案也挺多的，这里总结一下每种方法的特点和利弊：
+    
+    </summary>
+    
+      <category term="分享境" scheme="https://diygod.me/categories/%E5%88%86%E4%BA%AB%E5%A2%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPlayer – 最好看的弹幕播放器送给最好看的宫园薰</title>
+    <link href="https://diygod.me/2648/"/>
+    <id>https://diygod.me/2648/</id>
+    <published>2016-08-20T00:47:07.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<link href="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.css" rel="stylesheet"><div id="dplayer1" class="dplayer"></div><p>最好看的HTML5弹幕播放器送给最好看的宫园薰。</p><p>DPlayer来源于我的毕业设计，DPlayer发布后，我的学生生涯也随之结束。<a id="more"></a></p><p>&nbsp;</p><p><strong>Q：</strong>当初为什么要做一个这么好看的弹幕播放器？</p><p><strong>A：</strong>毕业设计选到的题目。</p><p>&nbsp;</p><p><strong>Q：</strong>5月底就在GitHub发布了，为什么直到现在（8月底）才发博客？</p><p><strong>A：</strong>刚开始觉得DPlayer还不太完善，不适合用在生产环境，就没写博客。</p><p>&nbsp;</p><p><strong>Q：</strong>所以是又经过了3个月的完善才在博客正式发布的么？</p><p><strong>A：</strong>不是，主要是因为我买了守望先锋…</p><p>&nbsp;</p><p><strong>Q：</strong>我也很好看，为什么不送给我？</p><p><strong>A：</strong>可以，那同时送给爱我的70亿人类吧。</p><p>&nbsp;</p><p>GitHub：</p><p><a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="noopener">https://github.com/DIYgod/DPlayer</a></p><p>Demo：</p><p><a href="http://dplayer.js.org/" target="_blank" rel="noopener">http://dplayer.js.org</a></p><p>&nbsp;</p><p><strong>Q：</strong>还有什么想说的么？</p><p><strong>A：</strong>差点忘了最重要的事情：我的战网ID <strong>DIYgod#5922</strong>，加我一起屁股开黑呀！</p><script src="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js"></script><script>function myDPlayer(){var e=new DPlayer({element:document.getElementById("dplayer1"),autoplay:!1,theme:"#FADFA3",loop:!0,screenshot:!1,preload:"none",video:{url:"https://dplayer.b0.upaiyun.com/若能绽放光芒.mp4",pic:"https://dplayer.b0.upaiyun.com/若能绽放光芒.png"},danmaku:{id:"9E2E3368B56CDBB4",api:"https://api.prprpr.me/dplayer/",token:"tokendemo",maximum:3e3}});window.dplayerInstances=[e]}window.DPlayer?myDPlayer():$.getScript("https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js",function(){$.getScript("https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js",function(){myDPlayer()})})</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;link href=&quot;https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;div id=&quot;dplayer1&quot; class=&quot;dplayer&quot;&gt;&lt;/div&gt;&lt;p&gt;最好看的HTML5弹幕播放器送给最好看的宫园薰。&lt;/p&gt;&lt;p&gt;DPlayer来源于我的毕业设计，DPlayer发布后，我的学生生涯也随之结束。
+    
+    </summary>
+    
+      <category term="创作集" scheme="https://diygod.me/categories/%E5%88%9B%E4%BD%9C%E9%9B%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些让我开心的小事情</title>
+    <link href="https://diygod.me/2505/"/>
+    <id>https://diygod.me/2505/</id>
+    <published>2016-03-22T01:07:54.000Z</published>
+    <updated>2017-12-21T04:39:03.342Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/happything.png" alt=""></p><p>手机满格的电量</p><p>过马路时路口亮起的绿灯</p><p>下雨时穿着雨靴踩出的水花</p><p>读到一首特别喜欢的诗</p><p>一抬头就看到的满天繁星</p><p>收到朋友寄来的信件</p><p>在马路上想起好笑的事情偷偷笑出来</p><p>下雨被困好朋友来送伞</p><p>做了一个好梦</p><p>趴在桌子上温暖的灯光打在脸上</p><p>屏幕亮起她的姓名<a id="more"></a></p><p>收拾整整齐齐的屋子</p><p>西瓜最中间的那一口</p><p>糖拌西红柿的汤</p><p>吃完薯片的手</p><p>穿着自己特别喜欢的衣服走在街上</p><p>微小微的微笑</p><p>每周更新的动漫和美剧</p><p>厨房里飘来饭菜的香</p><p>有我的快递</p><p>微凉的晚上一个人走在街上</p><p>雨天穿着长衣长袖看窗外</p><p>坐在屋顶看日落</p><p>偶遇一朵可爱的小花</p><p>听到一首喜欢的歌</p><p>上映一部喜欢的电影</p><p>写下这些小事</p><p>&nbsp;</p><p>小伙伴的补充：</p><p>穿女装</p><p>被网红评论</p><p>期末考试没挂科 o_o~</p><p>认识你们。</p><p>女朋友</p><p>写出的代码没bug</p><p>自己的意见被老师采纳</p><p>在酒吧或者茶馆听到自己喜欢的音乐</p><p>逛超市不用排队</p><p>干净的屏幕和键盘</p><p>被某站采纳意见并公开感谢</p><p>父母尚在，儿孙满堂</p><p>她在看我</p><p>楼梯转角你的微笑</p><p>下雨天发现包里正好有伞</p><p>发现一首相见恨晚的歌(๑•̀ㅁ•́ฅ)</p><p>和DIYgod聊天(问小白问题)&amp;交换友链（PY）</p><p>&nbsp;</p><p>（持续更新中，在下面留言分享让你开心的小事情吧~）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/happything.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;手机满格的电量&lt;/p&gt;&lt;p&gt;过马路时路口亮起的绿灯&lt;/p&gt;&lt;p&gt;下雨时穿着雨靴踩出的水花&lt;/p&gt;&lt;p&gt;读到一首特别喜欢的诗&lt;/p&gt;&lt;p&gt;一抬头就看到的满天繁星&lt;/p&gt;&lt;p&gt;收到朋友寄来的信件&lt;/p&gt;&lt;p&gt;在马路上想起好笑的事情偷偷笑出来&lt;/p&gt;&lt;p&gt;下雨被困好朋友来送伞&lt;/p&gt;&lt;p&gt;做了一个好梦&lt;/p&gt;&lt;p&gt;趴在桌子上温暖的灯光打在脸上&lt;/p&gt;&lt;p&gt;屏幕亮起她的姓名
+    
+    </summary>
+    
+      <category term="闲言语" scheme="https://diygod.me/categories/%E9%97%B2%E8%A8%80%E8%AF%AD/"/>
+    
+    
+  </entry>
+  
+</feed>
